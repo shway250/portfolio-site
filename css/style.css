@@ -1,0 +1,25 @@
+img{
+  width: 500px;
+  height: auto;
+  border-radius: 60%;
+}
+
+header{
+  background:grey;
+}
+
+h1{
+  margin: 0;
+}
+
+#text-padding{
+  padding: 25px;
+  text-align: left;
+/*  word-wrap: break-word;
+*/  font-size: 25px;
+  display: inline-block;
+}
+
+#profile-pic{
+  margin-left: 23.5%;
+}
