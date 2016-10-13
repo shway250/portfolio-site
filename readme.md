@@ -1,8 +1,8 @@
 #Portfolio Site
 
 I wanted to make a front end SPA for my portfolio site. I utilized the following technologies:
-*Angular.js
-*P5.js
+Angular.js
+P5.js
 Node.js
 ---
 
