@@ -23,3 +23,9 @@ h1{
 #profile-pic{
   margin-left: 23.5%;
 }
+#myContainer{
+  position: absolute;
+  left:0;
+  top:0;
+  z-index:-1;
+}
