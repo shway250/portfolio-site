@@ -1,4 +1,5 @@
 jacksonSite.controller('ResumeCtrl', ['$scope', function($scope) {
+  $scope.resumePdfLink = '../img/Resume.pdf';
 
   $scope.scroll = function() {
     var paths = ['/', '/about', '/portfolio', 'experience', 'skills'];

@@ -1,5 +1,4 @@
 jacksonSite.controller('MainCtrl', ['$scope', function($scope) {
-  // $scope.mainText = 'this is some main text';
   $scope.mainText = 'I am a full stack web developer with a passion for music technology and digital media. In my work I seek to unify aesthetic design with exacting functionality.';
   $scope.mainImg = '../img/portfolio_profile_pick.jpg';
 

@@ -2,7 +2,9 @@ jacksonSite.controller('ContactCtrl', ['$scope', function($scope) {
   $scope.email = 'jackson_duhon@yahoo.com';
   $scope.linkedInImg = '../img/linkedin-2-48.png';
   $scope.gitHubImg = '../img/github-9-48.png';
+  $scope.emailImg = '../img/email-14-48.png';
   $scope.linkedIn = "https://www.linkedin.com/in/jackson-duhon"
+  $scope.gitHub = "https://github.com/shway250"
 
   $scope.scroll = function() {
     var paths = ['/', '/about', '/portfolio', 'experience', 'skills'];

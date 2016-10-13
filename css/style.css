@@ -45,6 +45,16 @@ h1{
   display: inline-block;
 }
 
+#contact-text{
+  background: rgba(0,0,0,0.8);
+  color: white;
+  padding: 25px;
+  margin-left: 15%;
+  text-align: justify;
+  font-size: 15px;
+  display: inline-block;
+}
+
 #profile-pic{
   margin-left: 23.5%;
 }
@@ -53,4 +63,13 @@ h1{
   left:0;
   top:0;
   z-index:-1;
+}
+
+.icon-size{
+  font-size: 150px;
+  color: white;
+}
+
+.contact-links{
+  margin: 25px;
 }
