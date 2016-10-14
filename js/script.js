@@ -31,7 +31,7 @@ function Jitter() {
 
   this.move = function() {
     this.x += random(-this.speed, this.speed);
-    this.y += random(-this.speed, this.speed* random(4, 25));
+    this.y += random(-this.speed, this.speed* random(1, 10));
   };
 
   this.display = function() {
