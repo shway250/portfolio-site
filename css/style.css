@@ -1,76 +1,28 @@
 
 body, html { 
   font-family: Futura;
-  overflow-x: hidden; 
-  overflow-y: auto;
 }
 img{
   width: 500px;
   height: auto;
 }
-
 header{
   background:rgba(0,0,0,0.8);
   color: white;
 }
-
+a{
+  color: white;
+}
+a:hover{
+  color: rgb(100,0,255);
+  background: none;
+}
 h1{
   margin: 0 0 0 4%;
   font-size: 45px;
 }
-#contact-header{
-  text-align: center;
-  margin-bottom: 3%;
-}
 
-#linkedInImg{
-  width:150px;
-  height: auto;
-}
-
-#text-padding{
-  background: rgba(0,0,0,0.8);
-  color: white;
-  padding: 25px;
-  margin-left: 3%;
-  text-align: left;
-  font-size: 25px;
-  display: inline-block;
-}
-#portfolio-padding{
-  background: rgba(0,0,0,0.8);
-  color: white;
-  padding: 25px;
-  margin-left: 3%;
-  text-align: left;
-  font-size: 25px;
-  height: 650px;
-  display: inline-block;
-  overflow: scroll;
-}
-#about-text{
-  background: rgba(0,0,0,0.8);
-  color: white;
-  padding: 25px;
-  margin-left: 5%;
-  text-align: justify;
-  font-size: 15px;
-  display: inline-block;
-}
-
-#contact-text{
-  background: rgba(0,0,0,0.8);
-  color: white;
-  padding: 25px;
-  margin-left: 15%;
-  text-align: justify;
-  font-size: 15px;
-  display: inline-block;
-}
-
-#profile-pic{
-  margin-left: 23.5%;
-}
+/*ALL CANVAS STYLING*/
 #myContainer{
   position: absolute;
   left:0;
@@ -78,30 +30,90 @@ h1{
   z-index:-1;
 }
 
-.icon-size{
-  font-size: 150px;
+/*ABOUT AND MAIN PAGE IMAGE STYLING*/
+#profile-pic{
+  display: block;
+  margin: 1% auto;
+}
+.circleImgs{
+  border-radius: 60%;
+}
+
+/*Main text styling*/
+.text-padding{
+  background: rgba(0,0,0,0.8);
   color: white;
+  padding: 2%;
+  text-align: justify;
+  margin:0 5%;
+  font-size: 25px;
+  display: inline-block;
+}
+
+#about-text{
+  font-size: 15px;
+}
+
+/*ALL CONTACT AND RESUME PAGE STYLING*/
+#contact-header{
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+#contact-container{
+  background: rgba(0,0,0,0.85);
+  margin: 10px auto;
+  width: 40%;
+  height: auto;
+  display: block;
+  text-align: center;
 }
 
 .contact-links{
-  margin: 25px;
+  display: inline-block;
 }
+
+#linkedInImg{
+  width: 100px;
+  height: auto;
+}
+
+#resume-container{
+  text-align: left;
+}
+
+/*ALL PORTFOLIO STYLING*/
+
+#portfolio-padding{
+  text-align: left;
+  height: 650px;
+  overflow: scroll;
+}
+
+#portfolio-heading{
+  background: rgba(0,0,0,0.8);
+  color: white;
+  margin:10px 5%;
+  padding: 10px;
+}
+/*
+.icon-size{
+  font-size: 150px;
+  color: white;
+}*/
+
 .portfolio-div{
   display: block;
   background: rgba(0,0,0,0.4);
   border:1px solid black;
 }
-.circleImgs{
-  border-radius: 60%;
-}
+
 .portImgs{
-/*  float: left;
-*/  width: 25%;
+  width: 25%;
   height: auto;
 }
 
 .portDesc{
-  /*display: inline-block;*/
   position: relative;
   right:0px;
   text-align: justify;
