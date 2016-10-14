@@ -4,7 +4,6 @@ body{
 img{
   width: 500px;
   height: auto;
-  border-radius: 60%;
 }
 
 header{
@@ -27,6 +26,15 @@ h1{
 }
 
 #text-padding{
+  background: rgba(0,0,0,0.8);
+  color: white;
+  padding: 25px;
+  margin-left: 3%;
+  text-align: left;
+  font-size: 25px;
+  display: inline-block;
+}
+#portfolio-padding{
   background: rgba(0,0,0,0.8);
   color: white;
   padding: 25px;
@@ -72,4 +80,16 @@ h1{
 
 .contact-links{
   margin: 25px;
+}
+.portfolio-div{
+  display: block;
+  background: rgba(0,0,0,0.4);
+  border:1px solid black;
+}
+.circleImgs{
+  border-radius: 60%;
+}
+.portImgs{
+  width: 25%;
+  height: auto;
 }
