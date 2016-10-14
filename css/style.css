@@ -84,38 +84,32 @@ h1{
 
 /*ALL PORTFOLIO STYLING*/
 
-#portfolio-padding{
-  text-align: left;
-  height: 650px;
-  overflow: scroll;
-}
-
 #portfolio-heading{
   background: rgba(0,0,0,0.8);
   color: white;
   margin:10px 5%;
   padding: 10px;
 }
-/*
-.icon-size{
-  font-size: 150px;
-  color: white;
-}*/
+
+#portfolio-padding{
+  text-align: center;
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: row;
+}
 
 .portfolio-div{
-  display: block;
   background: rgba(0,0,0,0.4);
-  border:1px solid black;
+  border:1px solid white;
 }
 
 .portImgs{
-  width: 25%;
+  width: 250px;
   height: auto;
 }
 
 .portDesc{
-  position: relative;
-  right:0px;
-  text-align: justify;
+  padding: 15px;
+  text-align: left;
   font-size: 15px;
 }
