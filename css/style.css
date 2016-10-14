@@ -1,5 +1,8 @@
-body{
+
+body, html { 
   font-family: Futura;
+  overflow-x: hidden; 
+  overflow-y: auto;
 }
 img{
   width: 500px;
@@ -41,7 +44,9 @@ h1{
   margin-left: 3%;
   text-align: left;
   font-size: 25px;
+  height: 650px;
   display: inline-block;
+  overflow: scroll;
 }
 #about-text{
   background: rgba(0,0,0,0.8);
@@ -90,6 +95,15 @@ h1{
   border-radius: 60%;
 }
 .portImgs{
-  width: 25%;
+/*  float: left;
+*/  width: 25%;
   height: auto;
+}
+
+.portDesc{
+  /*display: inline-block;*/
+  position: relative;
+  right:0px;
+  text-align: justify;
+  font-size: 15px;
 }
