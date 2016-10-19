@@ -5,10 +5,10 @@ jacksonSite.controller('PortfolioCtrl', ['$scope', function($scope) {
   $scope.artemisLink = 'http://artemistracker.herokuapp.com/';
   $scope.euclidLink = 'https://miguelapou.github.io/Euclid/';
   //images
-  $scope.wubbaLubbaImg = '../img/wubba-lubba.png';
-  $scope.accioBikeImg = '../img/accio-bike.png';
-  $scope.artemisImg = '../img/artemis.png';
-  $scope.euclidImg = '../img/euclid.png';
+  $scope.wubbaLubbaImg = '../portfolio-site/img/wubba-lubba.png';
+  $scope.accioBikeImg = '../portfolio-site/img/accio-bike.png';
+  $scope.artemisImg = '../portfolio-site/img/artemis.png';
+  $scope.euclidImg = '../portfolio-site/img/euclid.png';
   //descriptions
   $scope.wubbaLubbaDesc = 'A front end Connect Four game based off the cartoon "Rick and Morty". Technologies used include HTML, CSS, Javascript, jQuery, GitHub.'
   $scope.accioBikeDesc = 'A full stack web application for storing information about your bike and web crawling through Craigslist to help find it if it is stolen. Technologies used include HTML, CSS, Javascritp, Ruby on Rails, NokoGiri, GitHub.'
