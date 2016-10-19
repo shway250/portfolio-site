@@ -1,5 +1,6 @@
 jacksonSite.controller('ResumeCtrl', ['$scope', function($scope) {
   $scope.resumePdfLink = '../portfolio-site/img/Resume.pdf';
+  $scope.resumeTextLink = '../portfolio-site/img/jackson-duhon-text-resume';
 
   $scope.scroll = function() {
     var paths = ['/', '/about', '/portfolio', 'experience', 'skills'];
