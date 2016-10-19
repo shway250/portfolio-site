@@ -1,16 +1,17 @@
 var jacksonSite = angular.module('jacksonSite', ['ui.router']);
 
-jacksonSite.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
+jacksonSite.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function($stateProvider, $urlRouterProvider, $locationProvider) {
   $urlRouterProvider.otherwise('/');
+  // $locationProvider.html5Mode(true).hashPrefix('!');
 
   $stateProvider
   .state('main', {
-    url: '#/',
+    url: '/',
     templateUrl: 'views/main.html',
     controller: 'MainCtrl'
   })
   .state('about', {
-    url: '#/about',
+    url: '/about',
     templateUrl: 'views/about.html',
     controller: 'AboutCtrl'
   })
