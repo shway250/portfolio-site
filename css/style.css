@@ -16,6 +16,12 @@ a:hover{
 h1{
   margin: 0 0 0 4%;
   font-size: 45px;
+  display: inline-block;
+}
+
+.header-links{
+  display: inline-block;
+  margin-left: 40%;
 }
 
 /*ALL CANVAS STYLING*/
